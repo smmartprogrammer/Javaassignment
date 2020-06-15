@@ -1066,3 +1066,167 @@
 // document.write("Phone Manufactures: <br>");
 // document.write("<br><br>"+PhoneManufactures[0] +"<br>"+ PhoneManufactures[1]+"<br>" + PhoneManufactures[2]+"<br> " + PhoneManufactures[3] +"<br> " + PhoneManufactures[4] +"<br>"+PhoneManufactures[5])
 
+// Task # 1
+
+
+// 1. Declare and initialize an empty multidimensional array.
+// (Array of arrays)
+
+// var multidimensionalArray = [[],[],[]];
+
+
+
+// Task # 2
+
+
+// var _2multidimensionalArray = [[0,1,2,3],[1,0,1,2],[2,1,0,1]];
+
+// document.write("<h1>Task # 2</h1>")
+// document.write(_2multidimensionalArray[0]+"<br>"+_2multidimensionalArray[1] + "<br>" + _2multidimensionalArray[2]);
+
+
+// Task # 3
+
+// document.write("<h1>Task # 3</h1>")
+// for(var i = 1; i<=10; i++){
+//     document.write(i + "<br>");
+// }
+
+
+// Task # 4
+
+// Write a program to print multiplication table of any
+// number using for loop. Table number & length should be
+// taken as an input from user
+
+
+
+// var TableNumber = +prompt("Enter the any table number: ");
+// var tableLength = +prompt("Enter the table lenght");
+// document.write("<h1>Task # 4</h1>")
+// document.write("Multiplication of table of " + TableNumber +"<br>"+ "length" + " "+ tableLength + "<br><br>")
+// var i = 1; 
+// for (i; i<=tableLength; i++){
+//     document.write(TableNumber +" "+ "x" + " " + i +" "+ "=" +" "+ TableNumber*i + "<br>");
+// }
+
+
+
+
+// Task # 5
+
+// 5. Write a program to print items of the following array
+// using for loop:
+// fruits = [“apple”, “banana”, “mango”, “orange”,
+// “strawberry”]
+
+
+// var fruitsName = ["apple", "banana", "mango", "orange", "strawberry"];
+// document.write("<h1>Task # 5</h1>")
+
+// for (var i = 0; i < fruitsName.length; i++) {
+//     document.write(fruitsName[i] + "<br>");
+// }
+// document.write("<br><br>")
+// for (var i = 0; i < fruitsName.length; i++) {
+//     document.write("Element at index" + " " + i + " " + "is" + " " + fruitsName[i] + "<br>");
+// }
+
+
+
+
+// Task # 6 
+
+
+// Generate the following series in your browser. See
+// example output.
+// a. Counting: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
+// b. Reverse counting: 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
+// c. Even: 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20
+// d. Odd: 1, 3, 5, 7, 9, 11, 13, 15, 17, 19
+// e. Series: 2k, 4k, 6k, 8k, 10k, 12k, 14k, 16k, 18k, 20k
+
+
+// document.write("<h1>Task # 6</h1>")
+// document.write("<b>Counting: </b><br><br>")
+
+// for(var i = 1; i <=15; i++){
+//     document.write(i+",");
+// }
+
+// document.write("<br><br><b>Reverse Counting: </b><br><br>")
+
+// for(var i = 10; i > 0; i--){
+//     document.write(i+",");
+// }
+
+// document.write("<br><br><b>Even:</b><br><br>")
+
+// for (var i= 0; i <= 20; i=i+2){
+//     document.write(i+",");
+// }
+
+// document.write("<br><br><b>Odd:</b><br><br>")
+
+// for (var i= 1; i <= 21; i=i+2){
+//     document.write(i+",");
+// }
+
+// document.write("<br><br><b>Series:</b><br><br>")
+
+// for (var i= 2; i <= 21; i=i+2){
+//     docume
+
+
+// Task # 7 
+
+// var bakeryItems = ["cake", "apple pie", "cookie", "chips", "patties"]
+
+// var UserItemsChoice = prompt("Welcome to ABC Bakery. What do you want to order sir/ma'am? ");
+
+// document.write("<h1>Task # 7</h1>")
+// for (var i = 0; i<bakeryItems.length; i++){
+//     if (bakeryItems[i] === UserItemsChoice){
+//         document.write(UserItemsChoice + " " + "is available at index " + i +" "+ "in our bakery");
+//     }
+//     else{
+//         document.write("We are sorry."+" "+ UserItemsChoice + " " + "is not available in our bakery"); 
+//     }
+//     break    
+// }
+
+
+
+
+
+// Task # 8
+
+// var A = [24, 53, 78, 91, 12]
+// var GreatestValue = Math.max(...[24, 53, 78, 91, 12]);
+
+// document.write("<h1>Task # 8</h1>")
+// document.write("Array items: " + A +"<br>");
+
+// document.write("The largest Number is : " +GreatestValue);
+
+
+
+// Task # 9
+
+// var B = [24, 53, 78, 91, 12]
+// var SmallestValue = Math.min(...[24, 53, 78, 91, 12]);
+
+// document.write("<h1>Task # 9</h1>")
+// document.write("Array items: " + B +"<br>");
+// document.write("The Smallest Number is : " +SmallestValue);
+
+
+// Task # 10
+
+
+
+// document.write("<h1>Task # 10</h1>")
+// for (var i = 5; i<=100; i=i+5){
+//     document.write(i + ",");
+// }
+
